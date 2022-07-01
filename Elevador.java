@@ -54,7 +54,8 @@ public class Elevador{
         if(this.pessoas > this.capacidade ){
 
             System.out.println("Elevador lotado !!");
-            System.out.println( (this.pessoas - this.capacidade) + "Pessoas vão ficar do lado de fora ");
+            System.out.println( (this.pessoas - this.capacidade) + " Pessoas vão ficar do lado de fora ");
+            this.pessoas = this.capacidade;
 
         }else{
 
